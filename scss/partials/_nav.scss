@@ -1,0 +1,10 @@
+.navbar {
+	background-color: getClr(light-gray) !important;
+}
+.nav-link {
+	color: getClr(dark-gray) !important;
+}
+
+.nav-link.active {
+	color: getClr(pink) !important;
+}

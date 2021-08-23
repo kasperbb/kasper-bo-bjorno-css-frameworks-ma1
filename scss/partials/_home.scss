@@ -1,0 +1,17 @@
+.box {
+	width: 264px;
+	height: 265px;
+	border-radius: 15px;
+	margin: 0.5rem;
+	background-color: getClr(light-gray);
+
+	&--white {
+		border: 3px solid getClr(pink);
+		background-color: getClr(white);
+	}
+
+	&--pink {
+		border: 3px solid getClr(white);
+		background-color: getClr(pink);
+	}
+}
