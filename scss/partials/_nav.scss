@@ -8,3 +8,7 @@
 .nav-link.active {
 	color: getClr(pink) !important;
 }
+
+.navbar-toggler[aria-expanded='true'] {
+	display: none !important;
+}

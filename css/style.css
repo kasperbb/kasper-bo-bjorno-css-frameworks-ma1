@@ -42,6 +42,10 @@ footer {
   color: #c32c72 !important;
 }
 
+.navbar-toggler[aria-expanded='true'] {
+  display: none !important;
+}
+
 .box {
   width: 264px;
   height: 265px;
